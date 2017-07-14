@@ -1,7 +1,11 @@
 module.exports = {
-    "extends": "standard",
-    "plugins": [
-        "standard",
-        "promise"
-    ]
+  "extends": "standard",
+  "plugins": [
+    "jest",
+    "standard",
+    "promise"
+  ],
+  "env": {
+    "jest/globals": true
+  }
 };
