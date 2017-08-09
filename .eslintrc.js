@@ -7,5 +7,8 @@ module.exports = {
   ],
   "env": {
     "jest/globals": true
+  },
+  "rules": {
+    "no-extend-native": 0
   }
 };
